@@ -1,8 +1,7 @@
 # ROS code name: galactic, humble
-ARG ROS_DISTRO
 
 # Compile OpenCV
-FROM ros:${ROS_DISTRO} AS base
+FROM ros:galactic AS base
 
 # Install wget
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
