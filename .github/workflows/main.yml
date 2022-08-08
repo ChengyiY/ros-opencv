@@ -27,4 +27,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true          
-          tags: ycy1986/opencv:dev
+          tags: ycy1986/ros-opencv:dev1.0
