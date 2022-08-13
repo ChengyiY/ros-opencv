@@ -1,7 +1,7 @@
 
 FROM zhuoqiw/ros-opencv AS opencv
 
-FROM ubuntu:20.04
+FROM ros:galactic
 LABEL Author="ycy <JG5BVICTOR@126.com>"
 
 COPY --from=opencv /setup /
